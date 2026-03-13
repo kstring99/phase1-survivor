@@ -128,7 +128,7 @@ def build_phase_data():
         print(f"  {PHASE_LABELS[phase]}...")
         studies = fetch_studies({
             "filter.overallStatus": "COMPLETED|TERMINATED|WITHDRAWN",
-            "filter.phase": phase,
+            "filter.advanced": f"AREA[Phase]{phase}",
             "countTotal": "true",
         }, max_pages=10)
 
@@ -148,7 +148,7 @@ def build_modality_data():
         print(f"  {itype}...")
         studies = fetch_studies({
             "filter.overallStatus": "COMPLETED|TERMINATED|WITHDRAWN",
-            "filter.interventionType": itype,
+            "filter.advanced": f"AREA[InterventionType]{itype}",
             "countTotal": "true",
         }, max_pages=8)
 
@@ -171,7 +171,7 @@ def build_heatmap_data():
             studies = fetch_studies({
                 "query.cond": condition,
                 "filter.overallStatus": "COMPLETED|TERMINATED|WITHDRAWN",
-                "filter.phase": phase,
+                "filter.advanced": f"AREA[Phase]{phase}",
             }, max_pages=3)
 
             infos = [extract_study_info(s) for s in studies]
@@ -195,8 +195,7 @@ def build_timeline_data():
 
             studies = fetch_studies({
                 "filter.overallStatus": "COMPLETED|TERMINATED|WITHDRAWN",
-                "filter.phase": phase,
-                "filter.advanced": f"AREA[StartDate]RANGE[{start_year}-01-01,{end_year}-01-01]",
+                "filter.advanced": f"AREA[Phase]{phase} AND AREA[StartDate]RANGE[{start_year}-01-01,{end_year}-01-01]",
             }, max_pages=5)
 
             infos = [extract_study_info(s) for s in studies]
