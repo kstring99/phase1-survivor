@@ -1,0 +1,92 @@
+{
+  "Cancer": {
+    "Phase 1": {"completed": 55.2, "terminated": 30.1, "withdrawn": 14.7, "total": 312},
+    "Phase 2": {"completed": 42.8, "terminated": 39.6, "withdrawn": 17.6, "total": 287},
+    "Phase 3": {"completed": 58.1, "terminated": 29.4, "withdrawn": 12.5, "total": 198},
+    "Phase 4": {"completed": 64.3, "terminated": 23.8, "withdrawn": 11.9, "total": 84}
+  },
+  "Diabetes": {
+    "Phase 1": {"completed": 62.1, "terminated": 25.3, "withdrawn": 12.6, "total": 87},
+    "Phase 2": {"completed": 53.4, "terminated": 32.1, "withdrawn": 14.5, "total": 131},
+    "Phase 3": {"completed": 67.2, "terminated": 22.4, "withdrawn": 10.4, "total": 116},
+    "Phase 4": {"completed": 72.8, "terminated": 18.5, "withdrawn": 8.7, "total": 92}
+  },
+  "Alzheimer": {
+    "Phase 1": {"completed": 54.8, "terminated": 29.7, "withdrawn": 15.5, "total": 58},
+    "Phase 2": {"completed": 38.6, "terminated": 42.1, "withdrawn": 19.3, "total": 114},
+    "Phase 3": {"completed": 44.2, "terminated": 38.5, "withdrawn": 17.3, "total": 52},
+    "Phase 4": {"completed": 61.5, "terminated": 26.9, "withdrawn": 11.6, "total": 26}
+  },
+  "Heart Failure": {
+    "Phase 1": {"completed": 60.5, "terminated": 26.3, "withdrawn": 13.2, "total": 76},
+    "Phase 2": {"completed": 51.7, "terminated": 33.8, "withdrawn": 14.5, "total": 145},
+    "Phase 3": {"completed": 63.4, "terminated": 25.1, "withdrawn": 11.5, "total": 142},
+    "Phase 4": {"completed": 69.1, "terminated": 20.6, "withdrawn": 10.3, "total": 68}
+  },
+  "Asthma": {
+    "Phase 1": {"completed": 64.3, "terminated": 23.8, "withdrawn": 11.9, "total": 42},
+    "Phase 2": {"completed": 56.2, "terminated": 29.5, "withdrawn": 14.3, "total": 105},
+    "Phase 3": {"completed": 68.7, "terminated": 21.8, "withdrawn": 9.5, "total": 131},
+    "Phase 4": {"completed": 74.1, "terminated": 17.2, "withdrawn": 8.7, "total": 58}
+  },
+  "Depression": {
+    "Phase 1": {"completed": 57.1, "terminated": 28.6, "withdrawn": 14.3, "total": 35},
+    "Phase 2": {"completed": 46.3, "terminated": 36.2, "withdrawn": 17.5, "total": 149},
+    "Phase 3": {"completed": 59.8, "terminated": 27.4, "withdrawn": 12.8, "total": 117},
+    "Phase 4": {"completed": 66.2, "terminated": 22.5, "withdrawn": 11.3, "total": 71}
+  },
+  "Hiv": {
+    "Phase 1": {"completed": 61.4, "terminated": 25.7, "withdrawn": 12.9, "total": 70},
+    "Phase 2": {"completed": 55.8, "terminated": 30.2, "withdrawn": 14.0, "total": 86},
+    "Phase 3": {"completed": 66.3, "terminated": 23.2, "withdrawn": 10.5, "total": 95},
+    "Phase 4": {"completed": 71.4, "terminated": 19.0, "withdrawn": 9.6, "total": 42}
+  },
+  "Hepatitis": {
+    "Phase 1": {"completed": 59.3, "terminated": 27.1, "withdrawn": 13.6, "total": 59},
+    "Phase 2": {"completed": 52.6, "terminated": 32.5, "withdrawn": 14.9, "total": 114},
+    "Phase 3": {"completed": 64.8, "terminated": 24.1, "withdrawn": 11.1, "total": 108},
+    "Phase 4": {"completed": 70.2, "terminated": 19.7, "withdrawn": 10.1, "total": 57}
+  },
+  "Arthritis": {
+    "Phase 1": {"completed": 63.2, "terminated": 24.5, "withdrawn": 12.3, "total": 53},
+    "Phase 2": {"completed": 54.1, "terminated": 31.2, "withdrawn": 14.7, "total": 109},
+    "Phase 3": {"completed": 65.9, "terminated": 23.4, "withdrawn": 10.7, "total": 141},
+    "Phase 4": {"completed": 71.8, "terminated": 18.6, "withdrawn": 9.6, "total": 72}
+  },
+  "Obesity": {
+    "Phase 1": {"completed": 56.8, "terminated": 29.4, "withdrawn": 13.8, "total": 44},
+    "Phase 2": {"completed": 45.7, "terminated": 37.2, "withdrawn": 17.1, "total": 105},
+    "Phase 3": {"completed": 57.3, "terminated": 28.9, "withdrawn": 13.8, "total": 76},
+    "Phase 4": {"completed": 63.5, "terminated": 24.3, "withdrawn": 12.2, "total": 37}
+  },
+  "Hypertension": {
+    "Phase 1": {"completed": 65.4, "terminated": 22.8, "withdrawn": 11.8, "total": 68},
+    "Phase 2": {"completed": 57.3, "terminated": 28.6, "withdrawn": 14.1, "total": 143},
+    "Phase 3": {"completed": 69.5, "terminated": 20.8, "withdrawn": 9.7, "total": 164},
+    "Phase 4": {"completed": 75.2, "terminated": 16.4, "withdrawn": 8.4, "total": 107}
+  },
+  "Stroke": {
+    "Phase 1": {"completed": 58.6, "terminated": 27.8, "withdrawn": 13.6, "total": 44},
+    "Phase 2": {"completed": 48.9, "terminated": 34.7, "withdrawn": 16.4, "total": 98},
+    "Phase 3": {"completed": 60.2, "terminated": 27.1, "withdrawn": 12.7, "total": 83},
+    "Phase 4": {"completed": 66.7, "terminated": 22.2, "withdrawn": 11.1, "total": 36}
+  },
+  "Epilepsy": {
+    "Phase 1": {"completed": 61.5, "terminated": 25.6, "withdrawn": 12.9, "total": 39},
+    "Phase 2": {"completed": 53.8, "terminated": 31.4, "withdrawn": 14.8, "total": 91},
+    "Phase 3": {"completed": 66.1, "terminated": 23.2, "withdrawn": 10.7, "total": 112},
+    "Phase 4": {"completed": 72.4, "terminated": 18.4, "withdrawn": 9.2, "total": 49}
+  },
+  "Parkinsons": {
+    "Phase 1": {"completed": 55.6, "terminated": 30.2, "withdrawn": 14.2, "total": 36},
+    "Phase 2": {"completed": 43.5, "terminated": 38.3, "withdrawn": 18.2, "total": 107},
+    "Phase 3": {"completed": 54.7, "terminated": 30.2, "withdrawn": 15.1, "total": 53},
+    "Phase 4": {"completed": 63.2, "terminated": 25.0, "withdrawn": 11.8, "total": 38}
+  },
+  "Multiple Sclerosis": {
+    "Phase 1": {"completed": 60.8, "terminated": 26.1, "withdrawn": 13.1, "total": 46},
+    "Phase 2": {"completed": 52.3, "terminated": 32.8, "withdrawn": 14.9, "total": 128},
+    "Phase 3": {"completed": 64.5, "terminated": 24.3, "withdrawn": 11.2, "total": 107},
+    "Phase 4": {"completed": 70.6, "terminated": 19.6, "withdrawn": 9.8, "total": 51}
+  }
+}

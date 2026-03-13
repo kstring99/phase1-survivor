@@ -1,0 +1,50 @@
+{
+  "Phase 1": {
+    "2004-2006": {"completed": 52.1, "terminated": 32.8, "withdrawn": 15.1, "total": 98},
+    "2006-2008": {"completed": 53.8, "terminated": 31.4, "withdrawn": 14.8, "total": 112},
+    "2008-2010": {"completed": 55.2, "terminated": 30.6, "withdrawn": 14.2, "total": 134},
+    "2010-2012": {"completed": 56.4, "terminated": 29.8, "withdrawn": 13.8, "total": 156},
+    "2012-2014": {"completed": 57.1, "terminated": 29.3, "withdrawn": 13.6, "total": 187},
+    "2014-2016": {"completed": 58.6, "terminated": 28.5, "withdrawn": 12.9, "total": 203},
+    "2016-2018": {"completed": 59.3, "terminated": 27.9, "withdrawn": 12.8, "total": 221},
+    "2018-2020": {"completed": 60.1, "terminated": 27.2, "withdrawn": 12.7, "total": 245},
+    "2020-2022": {"completed": 61.8, "terminated": 26.4, "withdrawn": 11.8, "total": 267},
+    "2022-2024": {"completed": 62.5, "terminated": 25.8, "withdrawn": 11.7, "total": 198}
+  },
+  "Phase 2": {
+    "2004-2006": {"completed": 43.2, "terminated": 39.5, "withdrawn": 17.3, "total": 142},
+    "2006-2008": {"completed": 44.1, "terminated": 38.8, "withdrawn": 17.1, "total": 158},
+    "2008-2010": {"completed": 45.6, "terminated": 37.9, "withdrawn": 16.5, "total": 176},
+    "2010-2012": {"completed": 46.8, "terminated": 37.1, "withdrawn": 16.1, "total": 198},
+    "2012-2014": {"completed": 47.5, "terminated": 36.6, "withdrawn": 15.9, "total": 223},
+    "2014-2016": {"completed": 48.3, "terminated": 36.1, "withdrawn": 15.6, "total": 241},
+    "2016-2018": {"completed": 49.7, "terminated": 35.2, "withdrawn": 15.1, "total": 258},
+    "2018-2020": {"completed": 50.4, "terminated": 34.8, "withdrawn": 14.8, "total": 276},
+    "2020-2022": {"completed": 52.1, "terminated": 33.6, "withdrawn": 14.3, "total": 294},
+    "2022-2024": {"completed": 53.2, "terminated": 32.9, "withdrawn": 13.9, "total": 215}
+  },
+  "Phase 3": {
+    "2004-2006": {"completed": 56.4, "terminated": 30.2, "withdrawn": 13.4, "total": 118},
+    "2006-2008": {"completed": 57.8, "terminated": 29.3, "withdrawn": 12.9, "total": 132},
+    "2008-2010": {"completed": 59.1, "terminated": 28.5, "withdrawn": 12.4, "total": 148},
+    "2010-2012": {"completed": 60.3, "terminated": 27.8, "withdrawn": 11.9, "total": 167},
+    "2012-2014": {"completed": 61.2, "terminated": 27.1, "withdrawn": 11.7, "total": 189},
+    "2014-2016": {"completed": 62.5, "terminated": 26.4, "withdrawn": 11.1, "total": 204},
+    "2016-2018": {"completed": 63.1, "terminated": 25.9, "withdrawn": 11.0, "total": 218},
+    "2018-2020": {"completed": 64.2, "terminated": 25.1, "withdrawn": 10.7, "total": 237},
+    "2020-2022": {"completed": 65.8, "terminated": 24.2, "withdrawn": 10.0, "total": 256},
+    "2022-2024": {"completed": 66.4, "terminated": 23.7, "withdrawn": 9.9, "total": 187}
+  },
+  "Phase 4": {
+    "2004-2006": {"completed": 62.3, "terminated": 25.4, "withdrawn": 12.3, "total": 65},
+    "2006-2008": {"completed": 63.5, "terminated": 24.6, "withdrawn": 11.9, "total": 72},
+    "2008-2010": {"completed": 64.8, "terminated": 23.8, "withdrawn": 11.4, "total": 84},
+    "2010-2012": {"completed": 65.7, "terminated": 23.2, "withdrawn": 11.1, "total": 96},
+    "2012-2014": {"completed": 66.4, "terminated": 22.5, "withdrawn": 11.1, "total": 108},
+    "2014-2016": {"completed": 67.8, "terminated": 21.8, "withdrawn": 10.4, "total": 119},
+    "2016-2018": {"completed": 68.3, "terminated": 21.4, "withdrawn": 10.3, "total": 127},
+    "2018-2020": {"completed": 69.5, "terminated": 20.6, "withdrawn": 9.9, "total": 138},
+    "2020-2022": {"completed": 71.2, "terminated": 19.3, "withdrawn": 9.5, "total": 148},
+    "2022-2024": {"completed": 72.1, "terminated": 18.8, "withdrawn": 9.1, "total": 112}
+  }
+}

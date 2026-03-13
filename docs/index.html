@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phase 1 Survivor — How Clinical Trials Really End</title>
+  <meta name="description" content="Interactive data visualization of clinical trial survival and success rates across phases, modalities, and therapeutic areas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <h1><span class="accent">Phase 1</span> Survivor</h1>
+    <p class="subtitle">How Clinical Trials Really End</p>
+    <p class="description">
+      Most drugs that enter clinical trials never make it to market. This site visualizes
+      completion, termination, and withdrawal rates across trial phases, intervention types,
+      and therapeutic areas — using data from ClinicalTrials.gov.
+    </p>
+  </header>
+
+  <!-- Nav -->
+  <nav>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#by-phase">By Phase</a></li>
+      <li><a href="#by-modality">By Modality</a></li>
+      <li><a href="#heatmap">Heatmap</a></li>
+      <li><a href="#trends">Trends</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+
+    <!-- Overview Stats -->
+    <section id="overview">
+      <h2>At a Glance</h2>
+      <p class="section-desc">Key metrics from clinical trials with terminal outcomes (completed, terminated, or withdrawn).</p>
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-value" id="stat-avg-completion">—</div>
+          <div class="stat-label">Avg Completion Rate</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-total-trials">—</div>
+          <div class="stat-label">Trials Analyzed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-worst-phase">—</div>
+          <div class="stat-label">Lowest Completion</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-best-phase">—</div>
+          <div class="stat-label">Highest Completion</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- By Phase -->
+    <section id="by-phase">
+      <h2>Success Rate by Phase</h2>
+      <p class="section-desc">How trial outcomes differ across Phase 1 through Phase 4. Phase 2 is the graveyard.</p>
+      <div class="chart-card">
+        <div class="chart-container" id="phase-chart"></div>
+      </div>
+    </section>
+
+    <!-- By Modality -->
+    <section id="by-modality">
+      <h2>Success Rate by Intervention Type</h2>
+      <p class="section-desc">Behavioral interventions lead the pack; biologics face the toughest road.</p>
+      <div class="chart-card">
+        <div class="chart-container" id="modality-chart"></div>
+      </div>
+    </section>
+
+    <!-- Heatmap -->
+    <section id="heatmap">
+      <h2>Therapeutic Area &times; Phase</h2>
+      <p class="section-desc">Completion rates across 15 therapeutic areas and 4 trial phases. Darker = lower survival.</p>
+      <div class="chart-card">
+        <div class="chart-container" id="heatmap-chart" style="min-height: 550px;"></div>
+      </div>
+    </section>
+
+    <!-- Timeline -->
+    <section id="trends">
+      <h2>Are Trials Getting More Successful?</h2>
+      <p class="section-desc">Completion rates over time (2004–2024). A slow but steady upward trend across all phases.</p>
+      <div class="chart-card">
+        <div class="chart-container" id="timeline-chart"></div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      Data sourced from <a href="https://clinicaltrials.gov" target="_blank" rel="noopener">ClinicalTrials.gov</a> API v2.
+      Sample data shown — run the pipeline for live results.
+    </p>
+    <p style="margin-top: 8px;">
+      Phase 1 Survivor &mdash; Built with Plotly.js
+    </p>
+  </footer>
+
+  <script src="js/charts.js"></script>
+</body>
+</html>

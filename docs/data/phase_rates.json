@@ -1,0 +1,26 @@
+{
+  "Phase 1": {
+    "completed": 58.3,
+    "terminated": 28.4,
+    "withdrawn": 13.3,
+    "total": 842
+  },
+  "Phase 2": {
+    "completed": 49.1,
+    "terminated": 35.7,
+    "withdrawn": 15.2,
+    "total": 1156
+  },
+  "Phase 3": {
+    "completed": 62.8,
+    "terminated": 26.1,
+    "withdrawn": 11.1,
+    "total": 987
+  },
+  "Phase 4": {
+    "completed": 68.5,
+    "terminated": 21.3,
+    "withdrawn": 10.2,
+    "total": 634
+  }
+}

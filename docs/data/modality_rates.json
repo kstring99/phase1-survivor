@@ -1,0 +1,38 @@
+{
+  "Drug": {
+    "completed": 54.2,
+    "terminated": 31.6,
+    "withdrawn": 14.2,
+    "total": 1847
+  },
+  "Biological": {
+    "completed": 51.8,
+    "terminated": 33.9,
+    "withdrawn": 14.3,
+    "total": 623
+  },
+  "Device": {
+    "completed": 63.7,
+    "terminated": 24.1,
+    "withdrawn": 12.2,
+    "total": 412
+  },
+  "Procedure": {
+    "completed": 66.4,
+    "terminated": 22.8,
+    "withdrawn": 10.8,
+    "total": 298
+  },
+  "Behavioral": {
+    "completed": 71.2,
+    "terminated": 18.3,
+    "withdrawn": 10.5,
+    "total": 387
+  },
+  "Other": {
+    "completed": 59.8,
+    "terminated": 27.4,
+    "withdrawn": 12.8,
+    "total": 215
+  }
+}
